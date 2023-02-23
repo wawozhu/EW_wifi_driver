@@ -1,0 +1,1 @@
+cmd_/home/xiangdong/Linux/driver/88x2bu.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/xiangdong/Linux/driver/88x2bu.ko /home/xiangdong/Linux/driver/88x2bu.o /home/xiangdong/Linux/driver/88x2bu.mod.o;  true
